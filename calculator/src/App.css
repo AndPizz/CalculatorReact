@@ -1,15 +1,35 @@
-.buttons{
-position: relative;
-text-align: center;
-margin-top: 20ch;
+html {
+  box-sizing: border-box;
 }
 
-.buttonProps{
-color: black;
-background-color: orange;
-font-size: x-large;
+.buttons {
+  border: 10px;
 }
 
-body{
-  background-color: aqua;
+.calculator {
+  max-width: 540px;
+  height: 300px;
+  margin: 0 auto;
+  border: 8px solid #ffffff;
+}
+
+.screen {
+  max-width: 540px;
+  height: 100px;
+  margin: 0 auto;
+  border: 8px solid white;
+  background-color: gray;
+}
+
+.buttonProps {
+  color: black;
+  background-color: orange;
+  font-size: x-large;
+  width: 134px;
+  height: 75px;
+  margin-left: 1px;
+}
+
+body {
+  background-color: #000000;
 }
